@@ -4,21 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fav-icon -->
     <link rel="shortcut icon" href="./assets/logo-header.png" type="image/x-icon">
+    <!-- website tittle -->
     <title>Pet House</title>
+    <!-- tailwind CDN link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- external CSS file -->
+    <link rel="stylesheet" href="utilities.css">
 </head>
 
 <body>
+    <!-- header start -->
     <header>
-
+        <!-- navbar -->
+        <nav class="bg-[#FFF9F4] font-sora">
+            <section class="section-max-width flex justify-between items-center py-6">
+                <!-- website logo here -->
+                <div class="flex items-center gap-2">
+                    <img src="./assets/logo-header.png" alt="">
+                    <h1 id="brand" class="text-2xl">Browse<span class="text-[#FFDC26] font-bold">4</span>Pets</h1>
+                </div>
+                <!-- nav-links & navbar button -->
+                <div id="nav-links" class="flex items-center gap-60">
+                    <!-- nav-links -->
+                    <ul class="flex gap-8">
+                        <li><a href="" class="text-xl text-[#111111]">Find a pet</a></li>
+                        <li><a href="" class="text-xl text-[#111111]">Breeds</a></li>
+                        <li><a href="" class="text-xl text-[#111111]">Contact us</a></li>
+                    </ul>
+                    <!-- navbar button -->
+                    <div class="space-x-4">
+                        <i class="fa-regular fa-bell text-2xl cursor-pointer"></i>
+                        <i class="fa-solid fa-magnifying-glass text-2xl cursor-pointer"></i>
+                        <button
+                            class="text-xl text-[#111111] rounded-lg border-solid border-2 border-[#FFDC26] py-3 px-6">
+                            Login
+                        </button>
+                        <button class="bg-[#FFDC26] text-xl text-[#111111] rounded-lg py-3 px-6">Register</button>
+                    </div>
+                </div>
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars text-3xl"></i>
+                </div>
+            </section>
+        </nav>
     </header>
+    <!-- main section start -->
     <main>
 
     </main>
+    <!-- footer start -->
     <footer>
 
     </footer>
+
+    <!-- font-awesome kit CDN -->
+    <script src="https://kit.fontawesome.com/8cd27d2a70.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
